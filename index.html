@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f2f1ec" />
+  <title>Fix & Web by Ouadie — Websites & Android apps</title>
+  <meta name="description" content="Fix & Web by Ouadie: independent developer building and fixing websites and Android apps for businesses, creators and people with a story to tell: portfolios, shops, birthday and wedding apps." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Fix & Web by Ouadie",
+    "foundingDate": "2021-06-16",
+    "areaServed": "FR",
+    "description": "Websites and Android apps for businesses and individuals."
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <script type="module" crossorigin src="/assets/index-Bym_SZuB.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-mTV-3Cp6.css">
+</head>
+<body>
+  <div class="loader" id="loader" aria-live="polite">
+    <div class="loader__top"><span>Fix &amp; Web</span><span>by Ouadie</span></div>
+    <div class="loader__count"><span id="loaderCount">0</span><sup>%</sup></div>
+    <div class="loader__bar"><i id="loaderBar"></i></div>
+  </div>
+
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__logo pill" aria-label="Fix & Web by Ouadie, back to top"><span class="nav__dot"></span>fix<em>&amp;</em>web<small>by ouadie</small></a>
+    <nav class="nav__links pill" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a href="#contact" class="btn btn--accent nav__cta">Start a project <b>→</b></a>
+    <button class="burger pill" id="burger" aria-controls="menu" aria-expanded="false" aria-label="Open menu">
+      <span class="burger__label" id="burgerLabel">Menu</span>
+      <span class="burger__lines" aria-hidden="true"><i></i><i></i></span>
+    </button>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true" inert>
+    <nav class="menu__links" aria-label="Mobile">
+      <a href="#services"><small>01</small>Services</a>
+      <a href="#work"><small>02</small>Work</a>
+      <a href="#process"><small>03</small>Process</a>
+      <a href="#pricing"><small>04</small>Pricing</a>
+      <a href="#faq"><small>05</small>FAQ</a>
+      <a href="#contact"><small>06</small>Contact</a>
+    </nav>
+    <div class="menu__foot">
+      <a href="mailto:contact@fixandweb.com">contact@fixandweb.com</a>
+      <a href="#contact" class="btn btn--accent">Start a project <b>→</b></a>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero__card">
+        <div class="hero__copy">
+          <p class="tag" data-reveal><span class="live"></span>Ouadie · independent developer in Paris · available now</p>
+          <h1 class="hero__title">
+            <span class="line"><span>Websites &amp; apps</span></span>
+            <span class="line"><span>people <em>love</em> to</span></span>
+            <span class="line"><span>tap and share.</span></span>
+          </h1>
+          <p class="hero__lead" data-reveal>I build, and fix, websites and Android apps for businesses, creators and anyone with a brand, a birthday or a big idea.</p>
+          <div class="hero__actions" data-reveal>
+            <a href="#contact" class="btn btn--accent">Start a project <b>→</b></a>
+            <a href="#work" class="btn btn--ghost">See our work</a>
+          </div>
+          <ul class="hero__stats" id="stats" data-reveal></ul>
+        </div>
+        <div class="hero__stage">
+          <canvas id="hero-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-hidden="true">
+      <div class="marquee__track" id="marquee"></div>
+    </section>
+
+    <section class="section" id="services">
+      <header class="section__head">
+        <p class="eyebrow">Services</p>
+        <h2>One developer for your <em>site</em>, your <em>shop</em> and your <em>app</em>.</h2>
+      </header>
+      <ul class="bento" id="servicesList"></ul>
+    </section>
+
+    <section class="section section--work" id="work">
+      <header class="section__head section__head--row">
+        <div>
+          <p class="eyebrow">Selected work</p>
+          <h2>Recent <em>builds</em>.</h2>
+        </div>
+        <p class="hint">Swipe →</p>
+      </header>
+      <div class="work" id="workTrack"></div>
+    </section>
+
+    <section class="section" id="process">
+      <header class="section__head">
+        <p class="eyebrow">Process</p>
+        <h2>From first hello to <em>live</em> in weeks.</h2>
+      </header>
+      <ol class="steps" id="stepsList"></ol>
+    </section>
+
+    <section class="section" id="pricing">
+      <header class="section__head">
+        <p class="eyebrow">Packages</p>
+        <h2>Clear prices. <em>No surprises.</em></h2>
+      </header>
+      <div class="plans" id="plansList"></div>
+      <p class="note">Prices are starting points. Every project gets a fixed quote after a free 20-minute call.</p>
+    </section>
+
+    <section class="section faq-wrap" id="faq">
+      <header class="section__head">
+        <p class="eyebrow">FAQ</p>
+        <h2>Good to <em>know</em>.</h2>
+      </header>
+      <div class="faq" id="faqList"></div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="contact">
+        <header class="section__head">
+          <p class="eyebrow">Contact</p>
+          <h2>Tell us what you're <em>dreaming up</em>.</h2>
+          <p class="contact__sub">I reply within 48 hours with a clear, fixed quote.</p>
+        </header>
+        <form class="form" id="contactForm" novalidate>
+          <label>Your name<input name="name" required autocomplete="name" placeholder="Jane Doe" /></label>
+          <label>Email<input name="email" type="email" required autocomplete="email" placeholder="jane@email.com" /></label>
+          <fieldset class="form__wide chips">
+            <legend>I need</legend>
+            <label><input type="radio" name="type" value="website" checked /><span>Website</span></label>
+            <label><input type="radio" name="type" value="shop" /><span>Online shop</span></label>
+            <label><input type="radio" name="type" value="portfolio" /><span>Portfolio</span></label>
+            <label><input type="radio" name="type" value="android" /><span>Android app</span></label>
+            <label><input type="radio" name="type" value="event" /><span>Birthday / event</span></label>
+            <label><input type="radio" name="type" value="other" /><span>Something else</span></label>
+          </fieldset>
+          <label class="form__wide">Tell us a bit about it<textarea name="msg" rows="4" placeholder="A few lines about your project, timing and budget"></textarea></label>
+          <button class="btn btn--accent" type="submit">Send message <b>→</b></button>
+          <p class="form__status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__grid">
+      <div>
+        <h4>Fix &amp; Web <em>by Ouadie</em></h4>
+        <p>Websites &amp; Android apps. Independent developer based in Paris since 2021.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="mailto:contact@fixandweb.com">contact@fixandweb.com</a><br />Paris, France<br />Remote for clients everywhere</p>
+      </div>
+      <div>
+        <h4>Business</h4>
+        <p>Entrepreneur individuel<br />SIRET 900 521 238 00015<br />Established June 2021</p>
+      </div>
+    </div>
+    <details class="legal">
+      <summary>Mentions légales</summary>
+      <dl>
+        <dt>Éditeur</dt><dd>Entrepreneur individuel, enseigne « Fix &amp; Web by Ouadie »</dd>
+        <dt>SIREN / SIRET</dt><dd>900 521 238 / 900 521 238 00015</dd>
+        <dt>Code NAF</dt><dd>73.11Z</dd>
+        <dt>Contact</dt><dd><a href="mailto:contact@fixandweb.com">contact@fixandweb.com</a></dd>
+        <dt>Hébergeur</dt><dd>À compléter (nom, adresse et téléphone de l'hébergeur)</dd>
+      </dl>
+    </details>
+    <div class="footer__row">
+      <span>© <span id="year"></span> Fix &amp; Web by Ouadie</span>
+      <a href="mailto:contact@fixandweb.com">contact@fixandweb.com</a>
+      <a href="#top">Back to top ↑</a>
+    </div>
+    <div class="footer__big">fix<em>&amp;</em>web</div>
+    <p class="footer__by">Websites &amp; apps, by Ouadie.</p>
+  </footer>
+
+</body>
+</html>
