@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#f2f1ec" />
+  <meta name="theme-color" content="#e6e0d2" />
   <!-- icons: browsers, iOS/iPadOS, Android/PWA, Windows -->
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -16,15 +16,15 @@
   <!-- social sharing preview -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Fix & Web by Ouadie" />
-  <meta property="og:title" content="Fix & Web by Ouadie — Websites & Android apps" />
-  <meta property="og:description" content="Websites and Android apps for businesses, creators and anyone with a brand, a birthday or a big idea." />
+  <meta property="og:title" content="Fix & Web by Ouadie — Websites & Android apps at fixed prices" />
+  <meta property="og:description" content="Websites and Android apps built in Paris by one developer, at fixed prices from 35 €, ready in days." />
   <meta property="og:url" content="https://hakim2023.github.io/" />
   <meta property="og:image" content="https://hakim2023.github.io/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
-  <title>Fix & Web by Ouadie — Websites & Android apps</title>
-  <meta name="description" content="Fix & Web by Ouadie: independent developer building and fixing websites and Android apps for businesses, creators and people with a story to tell: portfolios, shops, birthday and wedding apps." />
+  <title>Fix & Web by Ouadie — Websites & Android apps at fixed prices</title>
+  <meta name="description" content="Fix & Web by Ouadie builds websites and Android apps in Paris at fixed prices from 35 €, ready in two to seven days: business sites, portfolios, QR menus, birthday and event sites." />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -32,183 +32,166 @@
     "name": "Fix & Web by Ouadie",
     "foundingDate": "2021-06-16",
     "areaServed": "FR",
-    "description": "Websites and Android apps for businesses and individuals."
+    "address": { "@type": "PostalAddress", "addressLocality": "Paris", "addressCountry": "FR" },
+    "priceRange": "35 € – 65 €",
+    "description": "Websites and Android apps for businesses and individuals, at fixed prices."
   }
   </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
-  <script type="module" crossorigin src="/assets/index-vFTPr3iJ.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-D36lUZbJ.css">
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
+  <link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600&display=swap" rel="stylesheet" />
+  <script type="module" crossorigin src="/assets/index-nFFxKIsl.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CWjVmdv6.css">
 </head>
 <body>
-  <div class="loader" id="loader" aria-live="polite">
-    <div class="loader__top"><span class="loader__brand"><img src="/logo.svg" width="28" height="28" alt="" />Fix &amp; Web</span></div>
-    <div class="loader__count"><span id="loaderCount">0</span><sup>%</sup></div>
-    <div class="loader__bar"><i id="loaderBar"></i></div>
-  </div>
+  <a class="skip" href="#work">Skip to the work</a>
 
-  <header class="nav" id="nav">
-    <a href="#top" class="nav__logo pill" aria-label="Fix & Web by Ouadie, back to top"><img class="nav__mark" src="/logo.svg" width="34" height="34" alt="" />fix<em>&amp;</em>web<small>by ouadie</small></a>
-    <nav class="nav__links pill" aria-label="Primary">
-      <a href="#services">Services</a>
-      <a href="#work">Work</a>
-      <a href="#process">Process</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#faq">FAQ</a>
-    </nav>
-    <a href="#contact" class="btn btn--accent nav__cta">Start a project <b>→</b></a>
-    <button class="burger pill" id="burger" aria-controls="menu" aria-expanded="false" aria-label="Open menu">
-      <span class="burger__label" id="burgerLabel">Menu</span>
-      <span class="burger__lines" aria-hidden="true"><i></i><i></i></span>
-    </button>
+  <!-- ===== Header: takes the colours of the chapter beneath it ===== -->
+  <header class="nav" id="nav" data-field="bone">
+    <div class="frame nav__in">
+      <a href="#top" class="brand" aria-label="Fix & Web, back to top">
+        <img src="/logo.svg" width="32" height="32" alt="" />
+        <span>Fix &amp; Web</span>
+      </a>
+      <nav aria-label="Main">
+        <ul class="nav__links" id="navLinks">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#prices">Prices</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav__end">
+        <a href="#prices" class="btn btn--ink nav__cta">Get a price</a>
+        <button class="nav__menu" id="navMenu" type="button" aria-expanded="false" aria-controls="navLinks">Menu</button>
+      </div>
+    </div>
   </header>
 
-  <div class="menu" id="menu" aria-hidden="true" inert>
-    <nav class="menu__links" aria-label="Mobile">
-      <a href="#services"><small>01</small>Services</a>
-      <a href="#work"><small>02</small>Work</a>
-      <a href="#process"><small>03</small>Process</a>
-      <a href="#pricing"><small>04</small>Pricing</a>
-      <a href="#faq"><small>05</small>FAQ</a>
-      <a href="#contact"><small>06</small>Contact</a>
-    </nav>
-    <div class="menu__foot">
-      <a href="mailto:contact@fixandweb.com">contact@fixandweb.com</a>
-      <a href="#contact" class="btn btn--accent">Start a project <b>→</b></a>
-    </div>
-  </div>
-
   <main>
-    <section class="hero" id="top">
-      <div class="hero__card">
-        <div class="hero__copy">
-          <p class="tag" data-reveal><span class="live"></span>Ouadie · independent developer in Paris · available now</p>
-          <h1 class="hero__title">
-            <span class="line"><span>Websites &amp; apps</span></span>
-            <span class="line"><span>people <em>love</em> to</span></span>
-            <span class="line"><span>tap and share.</span></span>
-          </h1>
-          <p class="hero__lead" data-reveal>I build, and fix, websites and Android apps for businesses, creators and anyone with a brand, a birthday or a big idea.</p>
-          <div class="hero__actions" data-reveal>
-            <a href="#contact" class="btn btn--accent">Start a project <b>→</b></a>
-            <a href="#work" class="btn btn--ghost">See our work</a>
-          </div>
-          <ul class="hero__stats" id="stats" data-reveal></ul>
+    <!-- ===== Hero: two fields, the headline across the seam ===== -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__fields" aria-hidden="true"><div class="hero__upper" data-field="bone"></div><div class="hero__lower" data-field="orange"></div></div>
+      <div class="hero__title">
+        <h1 id="hero-title" class="hero__h1">Your site,<br />this week.</h1>
+      </div>
+      <p class="hero__sub">Fix &amp; Web builds websites and Android apps in Paris, at fixed prices from 35&nbsp;€.</p>
+
+      <!-- below the fold, still on the orange field: real client sites in 3D -->
+      <figure class="hero__stage" data-field="orange">
+        <canvas id="hero-canvas" aria-label="Bako-72's website in a browser window and Tawfik Dépannage's website on a phone, turning in 3D" role="img"></canvas>
+        <figcaption>Bako-72 and Tawfik Dépannage, two sites built this year and live today.</figcaption>
+      </figure>
+    </section>
+
+    <!-- ===== Work: the uneven wall of real screens ===== -->
+    <section class="chapter chapter--ink work" id="work" data-field="ink" aria-labelledby="work-title">
+      <div class="frame">
+        <div class="work__head">
+          <h2 id="work-title" class="display">Work</h2>
+          <a class="work__more" href="https://bako-72.netlify.app/">See a live site ↗</a>
         </div>
-        <div class="hero__stage">
-          <canvas id="hero-canvas" aria-hidden="true"></canvas>
+        <div class="wall" id="wall">
+          <div class="wall__row" style="--h: 300px">
+            <a class="tile" style="--r: 1.6" href="https://bako-72.netlify.app/"><img src="/work/bako-desktop.webp" width="1440" height="900" alt="Bako-72 home page: West African restaurant in Saint-Denis" /><span class="tile__cap"><span>Bako-72, restaurant</span><span>2026</span></span></a>
+            <a class="tile" style="--r: 0.462" href="https://bako-72.netlify.app/"><img src="/work/bako-phone.webp" width="780" height="1688" alt="Bako-72 on a phone" loading="lazy" /><span class="tile__cap"><span>On a phone</span><span>2026</span></span></a>
+            <a class="tile" style="--r: 1.6" href="https://hakim2023.github.io/tawfik-depannage/"><img src="/work/tawfik-desktop.webp" width="1440" height="900" alt="Tawfik Dépannage home page: towing and garage" loading="lazy" /><span class="tile__cap"><span>Tawfik Dépannage, towing</span><span>2026</span></span></a>
+          </div>
+          <div class="wall__row" style="--h: 360px">
+            <a class="tile" style="--r: 0.462" href="https://hakim2023.github.io/tawfik-depannage/"><img src="/work/tawfik-phone.webp" width="780" height="1688" alt="Tawfik Dépannage on a phone, with a call button" loading="lazy" /><span class="tile__cap"><span>Call in one tap</span><span>2026</span></span></a>
+            <a class="tile" style="--r: 0.763" href="https://bako-72.netlify.app/menu.html"><img src="/work/bako-print.webp" width="900" height="1180" alt="Bako-72 printable menu with a QR code" loading="lazy" /><span class="tile__cap"><span>Printable QR menu</span><span>2026</span></span></a>
+            <a class="tile" style="--r: 1.6" href="https://ouadie.net/"><img src="/work/ouadie-desktop.webp" width="1440" height="900" alt="ouadie.net portfolio home page" loading="lazy" /><span class="tile__cap"><span>ouadie.net, portfolio</span><span>2026</span></span></a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="marquee" aria-hidden="true">
-      <div class="marquee__track" id="marquee"></div>
+    <!-- ===== Prices: pick a job, the ticket prints it (the live thing) ===== -->
+    <section class="chapter chapter--yellow prices" id="prices" data-field="yellow" aria-labelledby="prices-title">
+      <div class="frame">
+        <h2 id="prices-title" class="head">Fixed prices, real dates</h2>
+        <fieldset class="picker" id="picker">
+          <legend>Pick what you need</legend>
+          <!-- options filled from src/data/content.ts; this markup is the no-script fallback -->
+          <label><input type="radio" name="plan" value="qr" /><span>QR menu &amp; link page · 35 €</span></label>
+          <label><input type="radio" name="plan" value="event" /><span>Birthday &amp; event site · 45 €</span></label>
+          <label><input type="radio" name="plan" value="portfolio" /><span>Portfolio website · 50 €</span></label>
+          <label><input type="radio" name="plan" value="business" checked /><span>Business website · 55 €</span></label>
+          <label><input type="radio" name="plan" value="android" /><span>Android app · 65 €</span></label>
+        </fieldset>
+
+        <article class="ticket" id="ticket" aria-live="polite">
+          <div class="ticket__main">
+            <p class="ticket__title head" id="ticketTitle">Business website</p>
+            <p class="ticket__desc" id="ticketDesc">A professional showcase site that builds trust and turns visitors into customers.</p>
+            <ul class="ticket__lines" id="ticketLines">
+              <li>Up to 5 pages</li><li>Services, reviews &amp; map</li><li>WhatsApp &amp; contact buttons</li><li>Google-friendly setup</li>
+            </ul>
+            <p class="ticket__date" id="ticketDate">Ready in 5 days from your go-ahead.</p>
+          </div>
+          <div class="ticket__stub">
+            <p class="ticket__price head"><span id="ticketPrice">55</span> €</p>
+            <p class="ticket__once">one-time price</p>
+            <a class="btn btn--ink ticket__cta" id="ticketCta" href="mailto:hakim.ouadie@gmail.com?subject=Business%20website%20%E2%80%94%2055%20%E2%82%AC">Book this</a>
+          </div>
+          <span class="ticket__notch ticket__notch--top" aria-hidden="true"></span>
+          <span class="ticket__notch ticket__notch--bottom" aria-hidden="true"></span>
+        </article>
+        <p class="prices__note">Half to start, half on launch. Anything bigger: ask for a quote.</p>
+      </div>
     </section>
 
-    <section class="section" id="services">
-      <header class="section__head">
-        <p class="eyebrow">Services</p>
-        <h2>One developer for your <em>site</em>, your <em>shop</em> and your <em>app</em>.</h2>
-      </header>
-      <ul class="bento" id="servicesList"></ul>
-    </section>
-
-    <section class="section section--work" id="work">
-      <header class="section__head section__head--row">
-        <div>
-          <p class="eyebrow">Selected work</p>
-          <h2>Recent <em>builds</em>.</h2>
+    <!-- ===== About: one person ===== -->
+    <section class="chapter chapter--orange about" id="about" data-field="orange" aria-labelledby="about-title">
+      <div class="about__panel">
+        <h2 id="about-title" class="head about__h">One person, start to finish.</h2>
+        <div class="about__text">
+          <p>I'm Ouadie, an independent web developer in Paris. Since 2021 I design, build and put every Fix &amp; Web site online myself, so you always talk to the person doing the work.</p>
+          <a href="#contact" class="btn btn--accent">Start a project</a>
         </div>
-        <p class="hint">Swipe →</p>
-      </header>
-      <div class="work" id="workTrack"></div>
+        <img class="about__photo" src="/work/photo.webp" width="1600" height="1600" alt="Illustrated portrait of Ouadie" loading="lazy" />
+      </div>
     </section>
 
-    <section class="section" id="process">
-      <header class="section__head">
-        <p class="eyebrow">Process</p>
-        <h2>From first hello to <em>live</em> in days.</h2>
-      </header>
-      <ol class="steps" id="stepsList"></ol>
-    </section>
-
-    <section class="section" id="pricing">
-      <header class="section__head">
-        <p class="eyebrow">Packages</p>
-        <h2>Premium work. <em>Affordable</em> prices.</h2>
-      </header>
-      <div class="plans" id="plansList"></div>
-      <p class="note">Fixed, transparent prices with no hidden fees. Need something bespoke? Ask for a free personalised quote.</p>
-    </section>
-
-    <section class="section faq-wrap" id="faq">
-      <header class="section__head">
-        <p class="eyebrow">FAQ</p>
-        <h2>Good to <em>know</em>.</h2>
-      </header>
-      <div class="faq" id="faqList"></div>
-    </section>
-
-    <section class="section" id="contact">
-      <div class="contact">
-        <header class="section__head">
-          <p class="eyebrow">Contact</p>
-          <h2>Tell us what you're <em>dreaming up</em>.</h2>
-          <p class="contact__sub">I reply within 48 hours with a clear, fixed quote.</p>
-        </header>
-        <form class="form" id="contactForm" novalidate>
-          <label>Your name<input name="name" required autocomplete="name" placeholder="Jane Doe" /></label>
-          <label>Email<input name="email" type="email" required autocomplete="email" placeholder="jane@email.com" /></label>
-          <fieldset class="form__wide chips">
-            <legend>I need</legend>
-            <label><input type="radio" name="type" value="website" checked /><span>Website</span></label>
-            <label><input type="radio" name="type" value="shop" /><span>Online shop</span></label>
-            <label><input type="radio" name="type" value="portfolio" /><span>Portfolio</span></label>
-            <label><input type="radio" name="type" value="android" /><span>Android app</span></label>
-            <label><input type="radio" name="type" value="event" /><span>Birthday / event</span></label>
-            <label><input type="radio" name="type" value="other" /><span>Something else</span></label>
-          </fieldset>
-          <label class="form__wide">Tell us a bit about it<textarea name="msg" rows="4" placeholder="A few lines about your project, timing and budget"></textarea></label>
-          <button class="btn btn--accent" type="submit">Send message <b>→</b></button>
-          <p class="form__status" id="formStatus" role="status"></p>
+    <!-- ===== Contact: the coupon ===== -->
+    <section class="chapter chapter--ink contact" id="contact" data-field="ink" aria-labelledby="contact-title">
+      <div class="frame">
+        <form class="coupon" id="contactForm" novalidate>
+          <div class="coupon__left">
+            <h2 id="contact-title" class="head">Start your project</h2>
+            <p>Tell me what you need. I reply within 48 hours with a fixed price.</p>
+          </div>
+          <div class="coupon__right">
+            <label class="sr" for="fName">Your name</label>
+            <input id="fName" name="name" placeholder="Your name" autocomplete="name" required />
+            <label class="sr" for="fEmail">Your email</label>
+            <input id="fEmail" name="email" type="email" placeholder="Your email" autocomplete="email" required />
+                        <label class="sr" for="fMsg">Your message</label>
+            <textarea id="fMsg" name="message" rows="3" placeholder="What do you need?" required></textarea>
+            <button class="coupon__send" type="submit">Send to Ouadie</button>
+            <p class="coupon__status" id="formStatus" role="status"></p>
+          </div>
+          <span class="coupon__notch coupon__notch--top" aria-hidden="true"></span>
+          <span class="coupon__notch coupon__notch--bottom" aria-hidden="true"></span>
         </form>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="footer__grid">
-      <div>
-        <h4>Fix &amp; Web <em>by Ouadie</em></h4>
-        <p>Websites &amp; Android apps. Independent developer based in Paris since 2021.</p>
+  <!-- ===== Footer: the contact is the headline ===== -->
+  <footer class="chapter chapter--yellow footer" data-field="yellow">
+    <div class="frame">
+      <div class="footer__top">
+        <p>Fix &amp; Web by Ouadie<br />Websites and Android apps, Paris</p>
+        <p>Entrepreneur individuel<br />SIRET 900 521 238 00015</p>
+        <a href="#top" class="footer__up">Back to top ↑</a>
       </div>
-      <div>
-        <h4>Contact</h4>
-        <p><a href="mailto:contact@fixandweb.com">contact@fixandweb.com</a><br />Paris, France<br />Remote for clients everywhere</p>
-      </div>
-      <div>
-        <h4>Business</h4>
-        <p>Entrepreneur individuel<br />SIRET 900 521 238 00015<br />Established June 2021</p>
+      <a class="footer__mail" href="mailto:hakim.ouadie@gmail.com"><span>hakim.ouadie</span><span>@gmail.com</span></a>
+      <div class="footer__meta">
+        <span><a href="https://ouadie.net/">ouadie.net</a></span>
+        <span>Built by hand, hosted on GitHub Pages</span>
+        <span>Paris, <span id="year">2026</span></span>
       </div>
     </div>
-    <details class="legal">
-      <summary>Mentions légales</summary>
-      <dl>
-        <dt>Éditeur</dt><dd>Entrepreneur individuel, enseigne « Fix &amp; Web by Ouadie »</dd>
-        <dt>SIREN / SIRET</dt><dd>900 521 238 / 900 521 238 00015</dd>
-        <dt>Code NAF</dt><dd>73.11Z</dd>
-        <dt>Contact</dt><dd><a href="mailto:contact@fixandweb.com">contact@fixandweb.com</a></dd>
-        <dt>Hébergeur</dt><dd>À compléter (nom, adresse et téléphone de l'hébergeur)</dd>
-      </dl>
-    </details>
-    <div class="footer__row">
-      <span>© <span id="year"></span> Fix &amp; Web by Ouadie</span>
-      <a href="mailto:contact@fixandweb.com">contact@fixandweb.com</a>
-      <a href="#top">Back to top ↑</a>
-    </div>
-    <div class="footer__big">fix<em>&amp;</em>web</div>
-    <p class="footer__by">Websites &amp; apps, by Ouadie.</p>
   </footer>
 
 </body>
