@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://hakim2023.github.io/</loc>
-    <lastmod>2026-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://hakim2023.github.io/</loc><xhtml:link rel="alternate" hreflang="en" href="https://hakim2023.github.io/"/><xhtml:link rel="alternate" hreflang="fr" href="https://hakim2023.github.io/fr/"/><xhtml:link rel="alternate" hreflang="es" href="https://hakim2023.github.io/es/"/><xhtml:link rel="alternate" hreflang="pt" href="https://hakim2023.github.io/pt/"/><xhtml:link rel="alternate" hreflang="it" href="https://hakim2023.github.io/it/"/></url>
+  <url><loc>https://hakim2023.github.io/fr/</loc><xhtml:link rel="alternate" hreflang="en" href="https://hakim2023.github.io/"/><xhtml:link rel="alternate" hreflang="fr" href="https://hakim2023.github.io/fr/"/><xhtml:link rel="alternate" hreflang="es" href="https://hakim2023.github.io/es/"/><xhtml:link rel="alternate" hreflang="pt" href="https://hakim2023.github.io/pt/"/><xhtml:link rel="alternate" hreflang="it" href="https://hakim2023.github.io/it/"/></url>
+  <url><loc>https://hakim2023.github.io/es/</loc><xhtml:link rel="alternate" hreflang="en" href="https://hakim2023.github.io/"/><xhtml:link rel="alternate" hreflang="fr" href="https://hakim2023.github.io/fr/"/><xhtml:link rel="alternate" hreflang="es" href="https://hakim2023.github.io/es/"/><xhtml:link rel="alternate" hreflang="pt" href="https://hakim2023.github.io/pt/"/><xhtml:link rel="alternate" hreflang="it" href="https://hakim2023.github.io/it/"/></url>
+  <url><loc>https://hakim2023.github.io/pt/</loc><xhtml:link rel="alternate" hreflang="en" href="https://hakim2023.github.io/"/><xhtml:link rel="alternate" hreflang="fr" href="https://hakim2023.github.io/fr/"/><xhtml:link rel="alternate" hreflang="es" href="https://hakim2023.github.io/es/"/><xhtml:link rel="alternate" hreflang="pt" href="https://hakim2023.github.io/pt/"/><xhtml:link rel="alternate" hreflang="it" href="https://hakim2023.github.io/it/"/></url>
+  <url><loc>https://hakim2023.github.io/it/</loc><xhtml:link rel="alternate" hreflang="en" href="https://hakim2023.github.io/"/><xhtml:link rel="alternate" hreflang="fr" href="https://hakim2023.github.io/fr/"/><xhtml:link rel="alternate" hreflang="es" href="https://hakim2023.github.io/es/"/><xhtml:link rel="alternate" hreflang="pt" href="https://hakim2023.github.io/pt/"/><xhtml:link rel="alternate" hreflang="it" href="https://hakim2023.github.io/it/"/></url>
 </urlset>
